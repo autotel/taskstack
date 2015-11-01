@@ -1,8 +1,5 @@
 <?
-$dbhost = 'your host';
-$dbuser = 'your user';
-$dbpass = 'your password';
-$db = 'your database name';
+include_once("phpVars.php");
 
 function worDB(){
 	global $dbhost;
